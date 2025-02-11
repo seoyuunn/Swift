@@ -1,0 +1,43 @@
+# macOS 자동 생성 파일
+.DS_Store
+.DS_Store?
+
+# Xcode 관련 파일
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcworkspace/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm
+Package.resolved
+
+# Playgrounds 관련 캐시
+playground.xcworkspace/
+
+# Cocoapods
+Pods/
+*.xcscmblueprint
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# 빌드 관련 폴더 및 파일
+build/
+DerivedData/
+
+# Git 관련 (환경설정, 보안 파일)
+.env
+*.key
+*.pem
+*.crt
+*.p12
+
+# VS Code 설정 파일
+.vscode/

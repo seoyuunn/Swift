@@ -52,6 +52,15 @@
                                     <constraint firstAttribute="height" constant="6" id="jGf-tz-WVH"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vk-nq-54G">
+                                <rect key="frame" x="16" y="287" width="361" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="ROw-lG-PZO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLc-0Z-YHx">
                                 <rect key="frame" x="16" y="360" width="361" height="35"/>
                                 <constraints>
@@ -63,15 +72,6 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HL3-GG-d4C"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vk-nq-54G">
-                                <rect key="frame" x="16" y="286" width="361" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="ROw-lG-PZO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -97,7 +97,7 @@
                     </view>
                     <connections>
                         <outlet property="firstOperandField" destination="jY8-QX-G05" id="tLM-aM-36A"/>
-                        <outlet property="operatorButton" destination="KLc-0Z-YHx" id="4su-LK-o7Y"/>
+                        <outlet property="operatorButton" destination="3QE-7E-zr0" id="0lB-4e-xCr"/>
                         <outlet property="resultLable" destination="4vk-nq-54G" id="KRH-7e-eCr"/>
                         <outlet property="secondOperandField" destination="CO2-zv-iJw" id="xjZ-0b-ReQ"/>
                     </connections>

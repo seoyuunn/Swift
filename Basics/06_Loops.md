@@ -4,6 +4,16 @@ Swift에서는 **for, while, repeat-while**을 사용하여 반복을 수행할 
 
 <br>
 
+📌 요약
+- 반복문	설명
+- for-in	배열, 컬렉션, 범위 등의 요소를 순회
+- while	조건이 true일 동안 실행
+- repeat-while	최소 1회 실행 후, 조건이 true면 반복
+- break	반복문 강제 종료
+- continue	현재 반복을 건너뛰고 다음 반복 실행
+
+<br>
+
 ## 1️⃣ for-in 반복문 (For Loop)
 for-in 반복문은 배열, 범위, 컬렉션 등을 순회할 때 사용.  
 
@@ -240,7 +250,7 @@ for i in 2...9 {
 <br>
 <br>
 
-✅ 실무에서의 Best Practice
+✔️ 실무에서의 Best Practice
 1.	배열 순회에는 for-in을 사용 → enumerated()와 함께 사용하면 index도 쉽게 확인 가능.
 2.	조건이 명확하지 않을 때는 while을 사용 → 언제 끝날지 모르는 반복에 적합.
 3.	반드시 한 번 실행해야 하는 경우 repeat-while 사용 → 사용자 입력 처리 등에 유용.
@@ -248,10 +258,3 @@ for i in 2...9 {
 
 <br>
 
-🏁 정리
-- 반복문	설명
-- for-in	배열, 컬렉션, 범위 등의 요소를 순회
-- while	조건이 true일 동안 실행
-- repeat-while	최소 1회 실행 후, 조건이 true면 반복
-- break	반복문 강제 종료
-- continue	현재 반복을 건너뛰고 다음 반복 실행

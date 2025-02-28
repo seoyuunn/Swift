@@ -4,7 +4,8 @@ Swift의 배열은 타입 안정성이 보장되며, 유연한 크기 조절이 
 
 <br>
 
-- 정리
+📌 정리
+
 |개념|설명|
 |-|-|
 |배열 선언|[Int], [String], Array<T>()|
@@ -14,9 +15,9 @@ Swift의 배열은 타입 안정성이 보장되며, 유연한 크기 조절이 
 |개수 확인|count, isEmpty|
 |포함 여부|contains()|
 |배열 반복|for-in, enumerated(), forEach()|
-|정렬|	sort(), sorted()|
-|필터링|	filter { 조건 }|
-|변환|	map { 변환 }|
+|정렬|sort(), sorted()|
+|필터링|filter { 조건 }|
+|변환|map { 변환 }|
 
 <br>
 
@@ -108,7 +109,7 @@ print(numbers) // []
 - remove(at:)를 사용할 때 주의:
 - 존재하지 않는 인덱스를 삭제하면 런타임 오류 발생!
 
-###3-3. 요소 포함 여부 확인 (contains)
+### 3-3. 요소 포함 여부 확인 (contains)
 ```
 let cities = ["Seoul", "New York", "Tokyo"]
 print(cities.contains("Seoul")) // true
@@ -187,6 +188,7 @@ print(gradeScores) // ["점수: 50", "점수: 80", "점수: 90", "점수: 100"]
 
 <br>
 <br>
+
 
 ✔️ 실무에서의 Best Practice
 1. 타입 안정성을 위해 배열 타입을 명시적으로 선언

@@ -1,5 +1,5 @@
 # Swift 고차 함수 (map, filter, reduce) – 유용한 고차 함수 활용
-고차 함수(Higher-Order Function)는 다른 함수를 매개변수로 받거나, 반환할 수 있는 함수를 의미한다.
+고차 함수(Higher-Order Function)는 다른 함수를 매개변수로 받거나, 반환할 수 있는 함수를 의미한다.  
 Swift에서는 배열과 컬렉션에서 자주 사용되는 map, filter, reduce 등의 유용한 고차 함수를 제공한다.
 
 <br>

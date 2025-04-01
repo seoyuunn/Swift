@@ -3,24 +3,24 @@
 
 ## ✅ 챕터 목록
 ```
-SwiftUI_Tutorials/
-├── Chapter1_SwiftUIEssentials/
-│   ├── 01_CreatingAndCombiningViews/
-│   ├── 02_BuildingListsAndNavigation/
-│   └── 03_HandlingUserInput/
+SwiftUITutorials/
+├── 01SwiftUIEssentials/
+│   ├── CreatingAndCombiningViews/
+│   ├── BuildingListsAndNavigation/
+│   └── HandlingUserInput/
 │
-├── Chapter2_DrawingAndAnimation/
-│   ├── 01_DrawingPathsAndShapes/
-│   └── 02_AnimatingViewsAndTransitions/
+├── 02DrawingAndAnimation/
+│   ├── DrawingPathsAndShapes/
+│   └── AnimatingViewsAndTransitions/
 │
-├── Chapter3_AppDesignAndLayout/
-│   ├── 01_ComposingComplexInterfaces/
-│   └── 02_WorkingWithUIControls/
+├── 03AppDesignAndLayout/
+│   ├── ComposingComplexInterfaces/
+│   └── WorkingWithUIControls/
 │
-├── Chapter4_FrameworkIntegration/
-│   ├── 01_InterfacingWithUIKit/
-│   ├── 02_CreatingAWATCHOSApp/
-│   └── 03_CreatingAMacOSApp/
+├── 04FrameworkIntegration/
+│   ├── InterfacingWithUIKit/
+│   ├── CreatingAWATCHOSApp/
+│   └── CreatingAMacOSApp/
 │
 └── README.md
 ```

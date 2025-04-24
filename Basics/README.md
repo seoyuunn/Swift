@@ -22,6 +22,7 @@
 16.	클래스 (Class)와 객체 (클래스와 구조체의 차이점, 인스턴스 생성)
 17.	프로퍼티와 메서드 (stored property, computed property, 메서드 활용)
 18.	프로퍼티 옵저버 (willSet, didSet 활용)
+---------
 19.	인스턴스 메서드와 타입 메서드 (static 키워드 활용)
 20.	상속 (Inheritance) (상속 개념, 오버라이딩, super)
 21.	프로토콜 (Protocol) (프로토콜 개념과 활용)
